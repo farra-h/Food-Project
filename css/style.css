@@ -1,0 +1,103 @@
+:root{
+    --orange-color: #ee7b0f;
+    --background-color: #FCF2E9;
+    --main-background-color: #F4F4F4;
+}
+html{
+    scroll-behavior: smooth;
+}
+header, .b-main {
+    background-color: var(--background-color);
+}
+main, footer{
+    background-color: var(--main-background-color);
+}
+.btn{
+    color: white;
+    background-color: var(--orange-color);
+    padding: 7px 22px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.start-eating{
+    color: var(--orange-color);
+    background-color: transparent;
+    padding: 7px 22px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid var(--orange-color);
+}
+.btn:hover{
+        color: white;
+        opacity: 80%;
+}
+.start-eating:hover{
+    color: white;
+    background-color: var(--orange-color);
+    opacity: 80%;
+}
+.small-header{
+    color: var(--orange-color);
+    font-weight: 700;
+}
+.people-imgs img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 2px solid var(--background-color);
+      margin-left: -10px;
+}
+.people-imgs img:first-child {
+      margin-left: 0;
+}
+.description{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: rebeccapurple;
+    width: 70px;
+    padding: 1px 5px;
+    border-radius: 20px;
+}
+.veget{
+    background-color: rgb(4, 212, 1);
+}
+.vegan{
+    background-color: rgb(119, 217, 21);
+    width: 50px;
+}
+.paleo{
+    background-color: rgb(254, 208, 24);
+    width: 50px;
+}
+i, .recipes{
+    color: var(--orange-color);
+    transition: 0.2s;
+}
+i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.people-imges img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      transition: 0.2s;
+}
+.people-imges img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.each-img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
